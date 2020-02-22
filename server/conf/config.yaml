@@ -1,0 +1,5 @@
+app:
+  port: 20087
+  name: intelligentdesign
+  version: v0.1.0
+  cuda: 0

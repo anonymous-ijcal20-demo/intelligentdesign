@@ -1,0 +1,38 @@
+[
+	{
+		"modelName": "全通风ResNet",
+		"modelModel": "DenseNet",
+		"level": 101,
+		"channelAttention": true,
+		"spaceAttention": true,
+		"activeFunction": "Swish",
+		"studyRatio": "0.03",
+		"maxTurn": "40000",
+		"batchSize": 32,
+		"optimizer": "Adam"
+	},
+	{
+		"modelName": "单侧通风UNet",
+		"modelModel": "DenseNet",
+		"level": 50,
+		"channelAttention": true,
+		"spaceAttention": true,
+		"activeFunction": "Relu",
+		"studyRatio": "0.01",
+		"maxTurn": "20000",
+		"batchSize": 128,
+		"optimizer": "SGD"
+	},
+	{
+		"modelName": "局部通风FPN",
+		"modelModel": "PixelAggregationNetwork",
+		"level": 18,
+		"channelAttention": false,
+		"spaceAttention": true,
+		"activeFunction": "ReLU6",
+		"studyRatio": "0.001",
+		"maxTurn": "40000",
+		"batchSize": 64,
+		"optimizer": "Adam"
+	}
+]
