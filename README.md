@@ -15,4 +15,4 @@ http://0.0.0.0:20087/docs#/
 
 ## Demo
 https://pan.baidu.com/s/1aHY8a2VSnptoQCty106GPg  
-密码: ip39
+password: ip39
