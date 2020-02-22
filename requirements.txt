@@ -1,0 +1,19 @@
+# Fast API
+uvicorn
+fastapi
+passlib
+pyyaml
+sqlalchemy
+pyjwt
+pymysql
+bcrypt
+python-multipart
+requests
+jinja2
+aiofiles == 0.4.0
+
+# Model
+numpy >= 1.14
+torch == 1.2.0
+opencv_python >= 3.4
+scipy >= 1.2
